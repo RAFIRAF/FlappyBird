@@ -64,6 +64,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setSize(WIDTH, HEIGHT); // ctrl+space to capitalize
         jFrame.addMouseListener(this);
+        jFrame.addKeyListener(this);
         jFrame.setResizable(false);
         jFrame.setVisible(true);
 
